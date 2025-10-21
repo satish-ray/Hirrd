@@ -1,4 +1,5 @@
 import "./App.css";
+import "./index.css"
 import AppLayout from "./layouts/AppLayout";
 import LandingPage from "./pages/landing";
 import OnboardingPage from "./pages/onboarding";
