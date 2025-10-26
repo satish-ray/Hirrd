@@ -8,4 +8,4 @@ const SavedJobsPage = () => {
   )
 }
 
-export default SavedJobsPage;
+export default SavedJobsPage

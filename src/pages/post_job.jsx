@@ -8,4 +8,4 @@ const PostJobPage = () => {
   )
 }
 
-export default PostJobPage;
+export default PostJobPage
