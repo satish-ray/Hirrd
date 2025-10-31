@@ -42,16 +42,16 @@
 <img width="1918" height="1150" alt="Screenshot 2025-10-30 111901_Apply_Drawer" src="https://github.com/user-attachments/assets/55ecfad8-1c7a-4d60-853e-924befba8725" />
 
 ### Create a job
-https://github.com/satish-ray/Hirrd/blob/main/public/Screenshoots/Screenshot%202025-10-31%20085445_post_job.png?raw=true
+<img src="https://github.com/satish-ray/Hirrd/blob/main/public/Screenshoots/Screenshot%202025-10-31%20085445_post_job.png?raw=true"/>
 
 ### Saved Jobs
-https://github.com/satish-ray/Hirrd/blob/main/public/Screenshoots/Screenshot%202025-10-31%20120811_Saved_jobs.png?raw=true
+<img src="https://github.com/satish-ray/Hirrd/blob/main/public/Screenshoots/Screenshot%202025-10-31%20120811_Saved_jobs.png?raw=true"/>
 
 ### My jobs
 #### recruiter
-
+<img src="https://github.com/satish-ray/Hirrd/blob/main/public/Screenshoots/Screenshot%202025-10-31%20135823_my-jobs_recruiter.png?raw=true"/>
 #### candidate
-
+<img src="https://github.com/satish-ray/Hirrd/blob/main/public/Screenshoots/Screenshot%202025-10-31%20143859_my-jobs_candidate.png?raw=true"/>
 
 ---
 
