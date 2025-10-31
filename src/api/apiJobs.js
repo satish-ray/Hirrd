@@ -107,3 +107,32 @@ export async function getSavedJobs(token) {
     }
     return data;
 }
+//for my-job page gettig posted jobs
+export async function getMyJobs(token, { recruiter_id }) {
+    const supabase = await supabaseClient(token);
+
+    const { data, error } = await supabase
+        .from("jobs")
+        .select("*,company:companies(name,logo_url)")
+        .eq("recruiter_id", recruiter_id);
+
+    if (error) {
+        console.error("Error Fetching Posted job", error);
+        return null;
+    }
+    return data;
+}
+//for my-job page recruiter delete posted jobs
+export async function deleteJob(token, { job_id }) {
+    const supabase = await supabaseClient(token);
+
+    const { data, error } = await supabase
+        .from("jobs")
+        .delete().eq("id", job_id)
+        .select();
+    if (error) {
+        console.error("Error Deleting Posted job", error);
+        return null;
+    }
+    return data;
+}

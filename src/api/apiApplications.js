@@ -67,5 +67,25 @@ export async function updateApplicationStatus(token, { job_id }, status) {
 
     // 4. Return the successfully retrieved company data.
     return data;
+}
+
+//for my-job page gettig applied jobs
+export async function getApplications(token, { user_id }) {
+    const supabase = await supabaseClient(token);
+
+
+    const { data, error } = await supabase
+        .from("applications")
+        .select("*,job:jobs(title, company:companies(name))")
+        .eq("candidate_id", user_id);
+
+    // 3. Handle any potential errors during the data fetching process.
+    if (error ) {
+        console.error("Error Fetchinging Applications:", error);
+        return null;
+    }
+
+    // 4. Return the successfully retrieved applications.
+    return data;
 
 }

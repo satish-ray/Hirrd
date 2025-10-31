@@ -1,6 +1,6 @@
 # 🚀 hired - Your Next Career Destination
 
-**hired** is a modern, full-stack job portal designed to efficiently connect job seekers (**Candidates**) with employers (**Recruiters**). It provides a seamless platform for candidates to apply for jobs using a simple authentication process and empowers recruiters to easily post and manage their job listings.
+**hirrd** is a modern, full-stack job portal designed to efficiently connect job seekers (**Candidates**) with employers (**Recruiters**). It provides a seamless platform for candidates to apply for jobs using a simple authentication process and empowers recruiters to easily post and manage their job listings.
 
 ## ✨ Key Features
 
@@ -41,13 +41,23 @@
 ### Job_Apply_Drawer
 <img width="1918" height="1150" alt="Screenshot 2025-10-30 111901_Apply_Drawer" src="https://github.com/user-attachments/assets/55ecfad8-1c7a-4d60-853e-924befba8725" />
 
+### Create a job
+https://github.com/satish-ray/Hirrd/blob/main/public/Screenshoots/Screenshot%202025-10-31%20085445_post_job.png?raw=true
+
+### Saved Jobs
+https://github.com/satish-ray/Hirrd/blob/main/public/Screenshoots/Screenshot%202025-10-31%20120811_Saved_jobs.png?raw=true
+
+### My jobs
+#### recruiter
+
+#### candidate
 
 
 ---
 
 ## 🛠️ Tech Stack
 
-**hired** is built as a highly scalable, secure, and modern web application leveraging the following technologies:
+**hirrd** is built as a highly scalable, secure, and modern web application leveraging the following technologies:
 
 ### Frontend
 * **React:** For building a fast and dynamic user interface.
