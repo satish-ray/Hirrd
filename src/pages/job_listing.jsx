@@ -12,7 +12,6 @@ import {
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
@@ -35,14 +34,6 @@ const JobListingPage = () => {
   useEffect(() => {
     if (isLoaded) fnCompanies();
   }, [isLoaded]);
-
-  // const fetchJobs = async()=>{
-  //   const supabaseAccesstoken= await session.getToken({
-  //     template:"supabase",
-  //   })
-  //   const data = await getJobs(supabaseAccesstoken);
-  //   console.log("Jobs Data:", data);
-  // }
 
   useEffect(() => {
     if (isLoaded) fnJobs();
@@ -109,6 +100,7 @@ const JobListingPage = () => {
           </SelectTrigger>
           <SelectContent>
             <SelectGroup>
+              
               {companies?.map(({ name, id }) => {
                 return (
                   <SelectItem key={name} value={id}>

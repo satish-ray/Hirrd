@@ -1,5 +1,4 @@
 import "./App.css";
-import { Button } from "./components/ui/Button";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import OnboardingPage from "./pages/onboarding";
 import LandingPage from "./pages/landing";
@@ -37,7 +36,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/jobs/:id", //Specific job details
+        path: "/job/:id", //Specific job details
         element: (
           <ProtectedRoute>
             <JobPage />
