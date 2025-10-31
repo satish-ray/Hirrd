@@ -93,3 +93,17 @@ export async function addNewJob(token, _, jobData) {
     }
     return data;
 }
+//saved jobs
+export async function getSavedJobs(token) {
+    const supabase = await supabaseClient(token);
+
+    const { data, error } = await supabase
+        .from("saved_jobs")
+        .select("*,job:jobs(*,company:companies(name,logo_url))");
+    // .select("*, job: jobs(*, company: companies(name,logo_url))");
+    if (error) {
+        console.error("Error Fetching Saved job", error);
+        return null;
+    }
+    return data;
+}

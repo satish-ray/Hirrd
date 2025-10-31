@@ -9,7 +9,6 @@ const AppLayout = () => {
       <div className="grid-background"></div>
       {/* //margin to be re evaluated */}
       <main className="min-h-screen container p-4 mx-auto">
-        <h1>App Layout</h1>
         <Header />
         <Outlet />
       </main>

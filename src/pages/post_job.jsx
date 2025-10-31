@@ -103,7 +103,7 @@ const PostJobPage = () => {
           <p className="text-red-500">{errors.description.error}</p>
         )}
 
-        <div className="flex gap-4 sm:gap-6 items-center w-full">
+        <div className="flex gap-4 width={'100%'} sm:gap-6 items-center ">
           <Controller
             name="location"
             control={control}
